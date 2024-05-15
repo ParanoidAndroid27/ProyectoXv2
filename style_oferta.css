@@ -1,0 +1,129 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Agregado */
+}
+
+#header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor {
+    margin-top: 80px; /* Ajusta el margen superior para dejar espacio para el navbar */
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative; /* Agregar posición relativa al contenedor */
+}
+
+.contenedor h2 {
+    position: absolute;
+    top: -40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Ajustar según sea necesario */
+}
+
+.producto {
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #060606;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative; /* Agregar posición relativa al producto */
+    background-color: #ece5e5;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.informacion {
+    padding: 10px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,157 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/back_con_fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.Primer_tit {
+    text-align: center;
+    color: #343a40;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 2em; /* Tamaño más grande para mayor impacto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para profundidad */
+    letter-spacing: 1.5px; /* Espaciado entre letras */
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.grid-item {
+    margin: 10px;
+}
+
+.grid-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grid-item img:hover {
+    transform: scale(1.1);
+}
+
+.transparent-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: -190px;
+    width: calc(60% - 50px);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid black;
+    margin-top: 287px;
+    margin-left: 59px; /* Margen agregado a la izquierda */
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; /* Padding adicional para el texto dentro del box */
+}
+
+.transparent-box p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+.transparent-box img {
+    margin-right: auto; /* Mover la imagen hacia la izquierda */
+    margin-left: 0; /* Alinear la imagen a la izquierda */
+    display: block; /* Hacer que la imagen sea un bloque */
+    margin-right: 10px; /* Margen a la derecha de la imagen */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagenes {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-wrapper {
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.text-end.mb-4 {
+    font-weight: bold;
+    color: #343a40;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 100px; /* Asegúrate de que no haya otro CSS que sobrescriba esto */
+    display: block; /* Esto asegura que el elemento pueda recibir margen */
+}
+
+
+.carruseles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.carrusel {
+    flex: 1;
+    max-width: 700px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+

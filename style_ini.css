@@ -1,0 +1,27 @@
+/* Estilos generales */
+body {
+    background-image: url('img/back_con_fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: 200px; /* Añade un margen superior para separar del navbar */
+}
+
+.card-title {
+    margin-bottom: 30px;
+}
+
+.form-control {
+    border-radius: 20px;
+}
+
+.btn-primary {
+    border-radius: 20px;
+}
